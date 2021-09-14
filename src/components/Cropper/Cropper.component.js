@@ -29,61 +29,61 @@ const Cropper = (props) => (
     <Animated.View
       ref={props.topOuterRef}
       style={[styles.animation, props.getTopOuterStyle()]}
-      {...props.topOuterPanResponder.panHandlers}
+      // {...props.topOuterPanResponder.panHandlers}
     />
     <Animated.View
       ref={props.leftOuterRef}
       style={[styles.animation, props.getLeftOuterStyle()]}
-      {...props.leftOuterPanResponder.panHandlers}
+      // {...props.leftOuterPanResponder.panHandlers}
     />
     <Animated.View
       ref={props.bottomOuterRef}
       style={[styles.animation, props.getBottomOuterStyle()]}
-      {...props.bottomOuterPanResponder.panHandlers}
+      // {...props.bottomOuterPanResponder.panHandlers}
     />
     <Animated.View
       ref={props.rightOuterRef}
       style={[styles.animation, props.getRightOuterStyle()]}
-      {...props.rightOuterPanResponder.panHandlers}
+      // {...props.rightOuterPanResponder.panHandlers}
     />
 
     <Animated.View
       style={[styles.animation, styles.topSideAnimation, props.getTopSideStyle()]}
-      {...props.topPanResponder.panHandlers}
+      // {...props.topPanResponder.panHandlers}
     />
     <Animated.View
       style={[styles.animation, styles.leftSideAnimation, props.getLeftSideStyle()]}
-      {...props.leftPanResponder.panHandlers}
+      // {...props.leftPanResponder.panHandlers}
     />
     <Animated.View
       style={[styles.animation, styles.bottomSideAnimation, props.getBottomSideStyle()]}
-      {...props.bottomPanResponder.panHandlers}
+      // {...props.bottomPanResponder.panHandlers}
     />
     <Animated.View
       style={[styles.animation, styles.rightSideAnimation, props.getRightSideStyle()]}
-      {...props.rightPanResponder.panHandlers}
+      // {...props.rightPanResponder.panHandlers}
     />
 
     <Animated.View
       style={[styles.animation, styles.topLeftAnimation, props.getTopLeftStyle()]}
-      {...props.topLeftPanResponder.panHandlers}
+      // {...props.topLeftPanResponder.panHandlers}
     />
     <Animated.View
       style={[styles.animation, styles.bottomLeftAnimation, props.getBottomLeftStyle()]}
-      {...props.bottomLeftPanResponder.panHandlers}
+      // {...props.bottomLeftPanResponder.panHandlers}
     />
     <Animated.View
       style={[styles.animation, styles.bottomRightAnimation, props.getBottomRightStyle()]}
-      {...props.bottomRightPanResponder.panHandlers}
+      // {...props.bottomRightPanResponder.panHandlers}
     />
     <Animated.View
       style={[styles.animation, styles.topRightAnimation, props.getTopRightStyle()]}
-      {...props.topRightPanResponder.panHandlers}
+      // {...props.topRightPanResponder.panHandlers}
     />
 
     <Animated.View
       style={[styles.animation, props.getRectangleStyle()]}
-      {...props.rectanglePanResponder.panHandlers}
+      // {...props.rectanglePanResponder.panHandlers}
     >
       <View style={styles.gridRow} >
         <View style={styles.gridColumn}>
